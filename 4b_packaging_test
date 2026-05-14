@@ -1,0 +1,12 @@
+Script started on 2026-05-13 21:48:23-04:00 [TERM="xterm-color" TTY="/dev/pts/12" COLUMNS="63" LINES="50"]
+[?2004h]0;theia@theiadocker-clarkjosekar: /home/project/final_project[01;32mtheia@theiadocker-clarkjosekar[00m:[01;34m/home/project/final_project[00m$ pyt hon3
+[?2004lPython 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import EmotionDetection.emotion_detection [1P[1P[1P[1P[1P[1P[4h [4lf[4h [4lr[4h [4lo[4h [4lm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cimop[K[Kport emotion_dete ctor
+>>> emotion_detector("I hate working long hours")
+{'anger': 0.64949876, 'disgust': 0.03718168, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}
+>>> 
+[?2004h]0;theia@theiadocker-clarkjosekar: /home/project/final_project[01;32mtheia@theiadocker-clarkjosekar[00m:[01;34m/home/project/final_project[00m$ [Kexi t
+[?2004lexit
+
+Script done on 2026-05-13 21:50:00-04:00 [COMMAND_EXIT_CODE="0"]
