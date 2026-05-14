@@ -4,12 +4,13 @@ import unittest
 class TestEmotionDetector(unittest.TestCase): 
   def test_sentiment_analyzer(self):
     result_1 = emotion_detector('I love working with Python') 
-    self.assertEqual(result_1['label'], 'SENT_POSITIVE') 
+    self.assertEqual(['dominant_emotion'], 'joy')
     
     result_2 = emotion_detector('I hate working with Python') 
-    self.assertEqual(result_2['label'], 'SENT_NEGATIVE') 
+    self.assertEqual(['dominant_emotion'], 'joy')
      
     result_3 = emotion_detector('I am neutral on Python') 
-    self.assertEqual(result_3['label'], 'SENT_NEUTRAL')
+    self.assertEqual(['dominant_emotion'], 'joy')
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
